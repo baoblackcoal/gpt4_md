@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPT-4技术介绍</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            color: #0066cc;
+            font-size: 2.5em;
+        }
+        h2 {
+            color: #0066cc;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            margin: 30px 0;
+        }
+        video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .feature-item {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .feature-item h3 {
+            color: #0066cc;
+            margin-top: 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .quote {
+            font-style: italic;
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-left: 4px solid #0066cc;
+            margin: 20px 0;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GPT-4: 新一代人工智能语言模型</h1>
+        <p>OpenAI最新的多模态大型语言模型</p>
+    </header>
+
+    <div class="image-container">
+        <img src="https://example.com/images/gpt4-banner.jpg" alt="GPT-4 Banner" title="GPT-4图像">
+    </div>
+
+    <section>
+        <h2>什么是GPT-4?</h2>
+        <p>
+            GPT-4（Generative Pre-trained Transformer 4）是由OpenAI开发的第四代预训练生成式变换器模型，于2023年3月14日正式推出。作为一款多模态大型语言模型，GPT-4不仅可以处理文本输入，还具备处理图像输入的能力，代表了人工智能领域的最新进展。
+        </p>
+        <p>
+            相比前代GPT-3.5，GPT-4在可靠性、创造性以及处理复杂指令的能力方面都有显著提升。它能够理解并生成自然语言，解答各类问题，编写代码，以及分析图像内容等多种任务。
+        </p>
+    </section>
+
+    <div class="video-container">
+        <video controls>
+            <source src="What can you do with GPT-4.mp4" type="video/mp4">
+            您的浏览器不支持视频播放，请更新浏览器版本。
+        </video>
+    </div>
+
+    <section>
+        <h2>GPT-4的技术特点</h2>
+        <div class="feature-grid">
+            <div class="feature-item">
+                <h3>多模态能力</h3>
+                <p>GPT-4可以接收文本和图像作为输入，使其能够解释图像中的幽默内容，总结屏幕截图中的文本，以及回答包含图表的考试问题。</p>
+                <img src="https://example.com/images/multimodal.jpg" alt="多模态能力展示" width="250">
+            </div>
+            <div class="feature-item">
+                <h3>更大的上下文窗口</h3>
+                <p>GPT-4提供了8,192和32,768个标记的上下文窗口版本，比GPT-3.5的4,096个标记有了显著提升，能处理更长的文本。</p>
+                <img src="https://example.com/images/context-window.jpg" alt="上下文窗口示意图" width="250">
+            </div>
+            <div class="feature-item">
+                <h3>系统消息控制</h3>
+                <p>引入了"系统消息"功能，允许以自然语言指令指定GPT-4的语气和任务，增强了对模型行为的控制。</p>
+                <img src="https://example.com/images/system-message.jpg" alt="系统消息示例" width="250">
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>性能与能力</h2>
+        <p>
+            OpenAI声称，在他们的内部测试中，GPT-4在SAT考试中获得了1410分（第94百分位），LSAT考试中获得了163分（第88百分位），以及统一律师资格考试中获得了298分（第90百分位）。相比之下，GPT-3.5在相同考试中的表现分别只达到了第82、第40和第10百分位。
+        </p>
+        <p>
+            在创造性思维的托兰斯测试中，GPT-4的原创性和流畅性得分位于前1%，而灵活性得分则在第93至第99百分位之间。
+        </p>
+        <div class="image-container">
+            <img src="https://example.com/images/performance-comparison.jpg" alt="GPT-4与其他AI模型的性能比较" width="600">
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>测试类型</th>
+                    <th>GPT-4得分</th>
+                    <th>GPT-3.5得分</th>
+                    <th>人类平均水平</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SAT考试</td>
+                    <td>1410分（第94百分位）</td>
+                    <td>第82百分位</td>
+                    <td>1060分</td>
+                </tr>
+                <tr>
+                    <td>LSAT考试</td>
+                    <td>163分（第88百分位）</td>
+                    <td>第40百分位</td>
+                    <td>151分</td>
+                </tr>
+                <tr>
+                    <td>统一律师资格考试</td>
+                    <td>298分（第90百分位）</td>
+                    <td>第10百分位</td>
+                    <td>280分</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>应用场景</h2>
+        <p>
+            GPT-4凭借其强大的语言理解和生成能力，已被应用于多种场景：
+        </p>
+        <ul>
+            <li><strong>ChatGPT Plus</strong> - OpenAI的付费聊天服务，提供GPT-4支持的高级对话功能</li>
+            <li><strong>Microsoft Copilot</strong> - 微软的智能助手，利用GPT-4提供搜索和内容创作服务</li>
+            <li><strong>Duolingo Max</strong> - 语言学习应用中的高级功能，解释错误并提供会话练习</li>
+            <li><strong>Khan Academy的Khanmigo</strong> - 教育平台上的智能辅导服务</li>
+            <li><strong>冰岛政府的语言保护项目</strong> - 帮助保护冰岛语</li>
+            <li><strong>Be My Eyes</strong> - 视障人士辅助应用，利用GPT-4识别图像和导航</li>
+            <li><strong>医疗领域</strong> - 微软和Epic Systems为医疗提供商提供GPT-4支持的系统</li>
+        </ul>
+        <div class="image-container">
+            <img src="https://example.com/images/applications.jpg" alt="GPT-4应用场景展示" width="700">
+        </div>
+    </section>
+
+    <section>
+        <h2>对比前代模型</h2>
+        <p>
+            GPT-4相较于GPT-3.5有显著提升：
+        </p>
+        <table>
+            <thead>
+                <tr>
+                    <th>特性</th>
+                    <th>GPT-3.5</th>
+                    <th>GPT-4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>上下文窗口</td>
+                    <td>4,096个标记</td>
+                    <td>8,192或32,768个标记</td>
+                </tr>
+                <tr>
+                    <td>模态支持</td>
+                    <td>仅文本</td>
+                    <td>文本+图像</td>
+                </tr>
+                <tr>
+                    <td>幻觉现象</td>
+                    <td>常见</td>
+                    <td>比GPT-3.5减少60%</td>
+                </tr>
+                <tr>
+                    <td>不当回应</td>
+                    <td>易受诱导</td>
+                    <td>比GPT-3.5减少82%</td>
+                </tr>
+                <tr>
+                    <td>创造性表现</td>
+                    <td>良好</td>
+                    <td>优异（托兰斯测试前1%）</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>限制与挑战</h2>
+        <p>
+            尽管GPT-4取得了重大进展，但仍存在一些重要的限制：
+        </p>
+        <ul>
+            <li>可能出现"幻觉"现象，即生成不在训练数据中或与用户提示相矛盾的信息</li>
+            <li>缺乏决策过程的透明度，事后解释可能与实际过程不符</li>
+            <li>在抽象推理基准ConceptARC上表现较弱，在所有类别中得分低于33%</li>
+            <li>可能表现出认知偏见，如确认偏见、锚定效应和基础率忽视</li>
+            <li>训练和技术细节不透明，限制了开放研究</li>
+        </ul>
+        <div class="quote">
+            "尽管GPT-4在自然语言处理方面表现出色，但仍须谨慎看待其在关键任务中的应用，特别是在医疗等高风险场景。" - 微软研究团队
+        </div>
+    </section>
+
+    <section>
+        <h2>未来发展</h2>
+        <p>
+            随着OpenAI发布GPT-4o（"o"代表"omni"），AI技术继续快速发展：
+        </p>
+        <ul>
+            <li>GPT-4o支持实时处理并生成文本、音频和图像等多模态输出</li>
+            <li>响应速度显著提升，接近人类反应时间</li>
+            <li>非英语语言性能大幅提高</li>
+            <li>视觉和音频理解能力增强</li>
+            <li>统一模型使其比前代更快速、成本更低、效率更高</li>
+        </ul>
+        <div class="image-container">
+            <img src="https://example.com/images/future-ai.jpg" alt="AI未来发展趋势" width="600">
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 GPT-4技术介绍 | 视频来源: What can you do with GPT-4.mp4</p>
+    </footer>
+</body>
+</html> 
