@@ -10,9 +10,7 @@ GPT-4（Generative Pre-trained Transformer 4）是由OpenAI开发的第四代预
 
 相比前代GPT-3.5，GPT-4在可靠性、创造性以及处理复杂指令的能力方面都有显著提升。它能够理解并生成自然语言，解答各类问题，编写代码，以及分析图像内容等多种任务。
 
-<video controls width="100%">
-  <source src="https://test-1343498553.cos.ap-guangzhou.myqcloud.com/videoplayback.mp4?q-sign-algorithm=sha1&q-ak=AKIDRzsBgkfzu9FLxgFkbwT8C5mzdACm3GqMuHnQLpsavTaSN_2bQCG-3_DccXZdpnd-&q-sign-time=1743040499;1743044099&q-key-time=1743040499;1743044099&q-header-list=host&q-url-param-list=&q-signature=8e1b1db34b802148d5b73d148a359e1c5cdb061d&x-cos-security-token=fnoIjkHd09NhOCSTgTPFWT37hUmzMohafeda535ef2de40690f9b9735e8166c80rWENt7fvE1EzM30aHKE17M2ogyfKdsZDyqQ1IQKqyhnyuSm3WWgOyFiueHffnGPla0myEpeOhPRUbE2CRH0t-jpmipVjF-PQl8y6awIsF_ZMh5C_Ipa8QA7-c5FrtJvdU5I_saUlxowkOXJ8W6cFx_AZoDYKyb_8BIS7TzqaFa3qZG5C4cRCuml6cNLAXZZH" type="video/mp4">
-</video>
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114227960352904&bvid=BV1yFoqYoEJe&cid=29077864575&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ## GPT-4的技术特点
 
